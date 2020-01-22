@@ -35,10 +35,11 @@ let offWhite = Color(hue: 83, saturation: 4, brightness: 89, alpha: 100)
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
 
-open func drawLine(from: Point(x: 0 y:0), to: Point(x: 50), lineWidth: Int = 0, capStyle: NSBezierPath.LineCapStyle = NSBezierPath.LineCapStyle.square)
+//open func drawLine(from: Point(x: 0 y:0), to: Point(x: 50), lineWidth: Int = 0, capStyle: NSBezierPath.LineCapStyle = NSBezierPath.LineCapStyle.square)
 
 canvas.lineColor = offWhite
-canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 50, y: 0))
+
+canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 50, y: 0), lineWidth: 10, capStyle: NSBezierPath.LineCapStyle.square)
 
 
 /*:
