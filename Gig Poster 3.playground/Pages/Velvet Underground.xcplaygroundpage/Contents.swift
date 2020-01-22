@@ -32,6 +32,12 @@ let offWhite = Color(hue: 83, saturation: 4, brightness: 89, alpha: 100)
 
 // Begin your solution here...
 
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
+
+
+
+
+
 
 /*:
  ## Use Source Control
