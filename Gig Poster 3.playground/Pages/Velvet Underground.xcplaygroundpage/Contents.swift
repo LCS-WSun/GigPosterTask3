@@ -39,9 +39,11 @@ canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
 canvas.lineColor = offWhite
 
-canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 50, y: 0), lineWidth: 10, capStyle: NSBezierPath.LineCapStyle.square)
+canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 50, y: 0), lineWidth: 50, capStyle: NSBezierPath.LineCapStyle.square)
 
+canvas.lineColor = offWhite
 
+canvas.drawLine(from: Point(x:0 , y: 0), to: Point(x:0, y: 50), lineWidth: 40, capStyle: .square)
 /*:
  ## Use Source Control
  
